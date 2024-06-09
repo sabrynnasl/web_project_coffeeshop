@@ -7,3 +7,438 @@
     margin: 0 auto;
 }
 
+  .header {
+    background-color: white;
+    background-image: url('../images/background_header.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px 80px 40px 80px;
+    min-height: 720px;
+    max-height: 800px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .header__span-accent {
+    font-family: "Noto Serif";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 72px;
+    color: #2F80ED;
+    
+  }
+  .header__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 72px;
+    letter-spacing: -1px;
+    max-width: 729px;
+    margin-top: 183px;
+    margin-bottom: 28px;
+  }
+  .header__description {
+    font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 683px;
+  margin: 0;
+  }
+  .header__image {
+    position: absolute;
+    height: 568px;
+    width: 646px;
+    right: 5px;
+    top: 124px;
+  }
+  .header__span-accent {
+    display: block;
+  }
+  .header__footer {
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383
+  }
+  .header__hours {
+    display: block;
+    margin: 0;
+  }
+  .header__paragraph {
+    margin: 0;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .nav__logo {
+    display: block;
+    width: 105px;
+    height: 39px;
+    position: relative;
+    left: -30px;
+
+  }
+  
+  .nav__links {
+    list-style-type: none;
+    margin: 8px 0 0;
+    display: flex;
+    column-gap: 20px;
+    padding: 0px;
+   
+
+  }
+  
+  .nav__link {
+    color: #000000;
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+  }
+
+
+  .recipes{
+    background-color: #0a2750;
+    background-image: url(../images/background_recipes.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 80px 215px;
+    color: white;
+  }
+  .recipes__title {
+    max-width: 580px;
+    margin: 0 0 24px 0;
+    font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  }
+  .recipes__subtitle {
+    max-width: 438px;
+    margin: 0 0 80px 0;
+    font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  }
+  .recipes__videos {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
+  .recipes__iframe {
+    width: 480px;
+    height: 273px;
+  }
+  .recipes__video-caption {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0 0 0;
+  }
+
+.reservation {
+  background-color: #D9E7FF;
+  background-image: url(../images/background_reservation.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 80px 120px;
+}
+.reservation__title {
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 52px;
+margin-bottom: 80px;
+padding-top: 100px;
+text-align: center;
+margin-top: 0;
+}
+.reservation__form {
+  margin: 0 auto;
+}
+
+.form {
+    max-width: 385px;
+  }
+  .form__input {
+    border-radius: 4px;
+    font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+  height: 60px;
+  border:#838383 1px solid;
+  box-sizing: border-box;
+  padding: 15px 20px;
+  }
+  .form__input::placeholder {
+    color: #838383;
+  }
+  .form__button{
+    border-radius: 4px;
+    font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  height: 60px;
+  background-color: #2f80ed;
+  border: none;
+  color: white;
+  max-width: 385px;
+  width: 100%;
+  margin-bottom: 32px;
+  }
+  
+  .form__button:focus {
+    opacity: 70%;
+  }
+  
+  .form__checkbox {
+    border-radius: 2px;
+    height: 20px;
+    width: 20px;
+  }
+  .form__label {
+    font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-bottom: 32px;
+  }
+  .form__label_checkbox {
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .form__fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+.menu {
+  background-color: white;
+  background-image: url(../images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+
+}
+
+.menu__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+}
+.menu__title {
+  font-family: "Inter";
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 52px;
+max-width: 800px;
+margin: 0 auto;
+margin-bottom: 24px;
+text-align: center;
+}
+
+.menu__subtitle {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+
+
+.card__title {
+    font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  margin-bottom: 32px;
+  }
+  
+  .card__content {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .card__list-item {
+    font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+  width: 540px;
+  }
+  
+  .card__list-divider {
+    border-bottom: 1px solid #838383;
+    flex-grow: 1;
+  }
+  
+  .card {
+  
+  }
+
+.about {
+  background-color: #0A2850;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__circle {
+  height: 426px;
+  width: 426px;
+  background-color: #2f80ed;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  z-index: 1;
+}
+
+.about__title {
+  font-family: "Inter";
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 52px;
+z-index: 2;
+position: relative;
+color: white;
+margin: 100px 80px;
+max-width: 251px;
+}
+.about__content {
+  max-width: 660px;
+  margin: 119px 80px 113px 0;
+}
+.about__paragraph {
+  font-family: "Noto Serif";
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+margin: 0 0 20px 0;
+color: white;
+
+}
+
+.footer {
+    background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+    padding-top: 60px;
+    color: white;
+  }
+  .footer__logo {
+    width: 105px;
+    height: 39px;
+    display: block;
+  }
+  .footer__content {
+    margin: 0px 100px 108px 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__copyright {
+    padding: 0px 0px 60px 80px;
+    font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  }
+  .footer__social-heading {
+    font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 20px 0;
+  }
+  .footer__social-link {
+    font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  margin-bottom: 16px;
+  }
+  
+  .footer__list {
+    /* O código abaixo remove os estilos do navegador padrão para listas */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .footer__social-icon {
+    height: 16px;
+    width: 16px;
+  }
