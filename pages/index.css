@@ -76,11 +76,11 @@
   line-height: 20px;
   color: #838383
   }
-  .header__hours {
+  .header__paragraph {
     display: block;
     margin: 0;
   }
-  .header__paragraph {
+  .header__schedule {
     margin: 0;
   }
 
