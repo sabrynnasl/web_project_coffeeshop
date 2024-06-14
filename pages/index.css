@@ -82,6 +82,7 @@
   }
   .header__schedule {
     margin: 0;
+    list-style-type: none;
   }
 
   .nav {
@@ -257,135 +258,6 @@ margin-top: 0;
     padding: 0;
     margin: 0;
   }
-
-.menu {
-  background-color: white;
-  background-image: url(../images/background_menu.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding: 100px 0;
-
-}
-
-.menu__cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 100px;
-  justify-content: center;
-}
-.menu__title {
-  font-family: "Inter";
-font-style: normal;
-font-weight: 500;
-font-size: 44px;
-line-height: 52px;
-max-width: 800px;
-margin: 0 auto;
-margin-bottom: 24px;
-text-align: center;
-}
-
-.menu__subtitle {
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-  max-width: 800px;
-  margin: 0 auto;
-  margin-bottom: 100px;
-  text-align: center;
-}
-
-
-
-.card__title {
-    font-family: "Inter";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-  margin: 0;
-  margin-bottom: 32px;
-  }
-  
-  .card__content {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  .card__list-item {
-    font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 8px;
-  margin: 0;
-  margin-bottom: 16px;
-  padding: 0;
-  width: 540px;
-  }
-  
-  .card__list-divider {
-    border-bottom: 1px solid #838383;
-    flex-grow: 1;
-  }
-  
-  .card {
-  
-  }
-
-.about {
-  background-color: #0A2850;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  justify-content: space-between;
-}
-
-.about__circle {
-  height: 426px;
-  width: 426px;
-  background-color: #2f80ed;
-  border-radius: 50%;
-  position: absolute;
-  top: -152px;
-  left: -129px;
-  z-index: 1;
-}
-
-.about__title {
-  font-family: "Inter";
-font-style: normal;
-font-weight: 500;
-font-size: 44px;
-line-height: 52px;
-z-index: 2;
-position: relative;
-color: white;
-margin: 100px 80px;
-max-width: 251px;
-}
-.about__content {
-  max-width: 660px;
-  margin: 119px 80px 113px 0;
-}
-.about__paragraph {
-  font-family: "Noto Serif";
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
-margin: 0 0 20px 0;
-color: white;
-
-}
 
 .footer {
     background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
