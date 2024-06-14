@@ -100,12 +100,63 @@
               </div>
             </section>
             <section class="reservation" id="reservation">
+              <h2 class="reservation__title">Reservar uma mesa</h2>
+              <form action="#" class="reservation__form form">
+                <fieldset class="form__fieldset">
+                  <label for="form__input-text" class="form__label">Nome *
+                    <input type="text" id="form__input-text" class="form__input" placeholder="Nome" required>
+                  </label>
+                  <label for="form__input-number" class="form__label">Número de convidados *
+                    <input type="number" id="form__input-number" class="form__input" placeholder="1-8" required>
+                  </label>
+                  <fieldset class="form__fieldset">
+                    <label for="Data-&-hora" class="form__label">Data e hora * 
+                    <input type="date" class="form__input form__input_itens" id="Data-&-hora" required>
+                    </label>
+                  <label for="form__input-mail" class="form__label"> Seu e-mail *
+                    <input type="email" class="form__input" id="form__input-mail" placeholder="email@email.com" required>
+                  </label>
+                  <button class="form__button">Reservar uma mesa</button>
+                  <label for="form__checkbox" class="form__label form__label_checkbox"><input type="checkbox" name="form__checkbox" id="form__checkbox" value="" class="form__checkbox" required>
+                    Eu concordo com os termos de uso</label>
+                </fieldset>
+              </form>
+            </section>
 
             </section>
           
           </main>
           
-         <footer class="footer">
+          <footer class="footer" id="footer">
+            <div class="footer__content">
+              <img src="images/logo_coffeeshop_light.svg" alt="imagem logo" class="footer__logo" />
+              <div class="footer__social">
+                <p class="footer__social-heading">Mídia social</p>
+                <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a class="footer__social-link" href="#"
+                    ><img
+                      src="images/facebook_white.svg"
+                      alt="Facebook"
+                      class="footer__social-icon"
+                    />
+                    Facebook</a
+                  >
+                </li>
+                <li class="footer__list-item">
+                  <a class="footer__social-link" href="#"
+                    ><img
+                      src="images/instagram_white.svg"
+                      alt="instagram"
+                      class="footer__social-icon"
+                    />
+                    Instagram</a
+                  >
+                </li>
+              </ul>
+              </div>
+            </div>
+            <p class="footer__copyright">© 2024 Sabrynna</p>
 
          </footer>
         </div> 
