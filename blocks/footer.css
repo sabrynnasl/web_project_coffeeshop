@@ -1,0 +1,55 @@
+.footer {
+    background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+    padding-top: 60px;
+    color: white;
+  }
+  .footer__logo {
+    width: 105px;
+    height: 39px;
+    display: block;
+  }
+  .footer__content {
+    margin: 0px 100px 108px 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__copyright {
+    padding: 0px 0px 60px 80px;
+    font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  }
+  .footer__social-heading {
+    font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 20px 0;
+  }
+  .footer__social-link {
+    font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  margin-bottom: 16px;
+  }
+  
+  .footer__list {
+    /* O código abaixo remove os estilos do navegador padrão para listas */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .footer__social-icon {
+    height: 16px;
+    width: 16px;
+  }
