@@ -183,10 +183,9 @@ font-style: normal;
 font-weight: 500;
 font-size: 44px;
 line-height: 52px;
-margin-bottom: 80px;
 padding-top: 100px;
 text-align: center;
-margin-top: 0;
+margin:0 0 80 0;
 }
 .reservation__form {
   margin: 0 auto;
@@ -258,6 +257,7 @@ margin-top: 0;
     padding: 0;
     margin: 0;
   }
+
 
 .footer {
     background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
